@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="page_header container">
+        <img class="logo" src="img/logo.svg" alt="Логотип">
+        <nav class="main_menu">
+            <ul class="main_menu_list">
+                <li><a class="main_menu_link" href="#about_city">О городе</a></li>
+                <li><a class="main_menu_link" href="#">Галерея</a></li>
+                <li><a class="main_menu_link" href="#">Карта</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider">
+        <h1 class="main_heading container">Откорой для себя Инсбрук</h1>
+    </div>
+    <article class="about_city container">
+        <a name="about_city"></a>
+        <h2 class="heading">О городе</h2>
+        <section class="about_city__description">
+            <h3 class="subheading">Инсбрук - один из лучших горнолыжных курортов Австрии.</h3>
+            <p>Сам город расположился в долине реки Инн, у самого подножия Восточных Альп. Поэтому, почти невозможно
+                найти
+                место в этом городе, чтобы не было видно гор.</p>
+        </section>
+        <div class="about_city__wrapper">
+            <section class="about_city__list">
+                <h3 class="subheading">Инсбрук в цифрах:</h3>
+                <ul class="characteristics_city">
+                    <li>Население: чуть больше 130 000 человек</li>
+                    <li>Часовой пояс: UTC+1 зимой и UTC+2 летом</li>
+                    <li>Зоны для катания: 9 штук, все связаны между собой транспортным сообщением</li>
+                    <li>Перепад высот: 860 метров - 3100 метров</li>
+                    <li>Продолжительность сезона: с 12 месяца (декабрь) по 4 месяц (апрель) включительно</li>
+                    <li>Возраст посетителей всех зон: с 2 лет и старше, без ограничений.</li>
+                </ul>
+            </section>
+            <aside class="ad">
+                <!-- <img class="ad_img" src="img/skier.png" alt="Реклама"> -->
+                <div class="ad_wrapper">
+                    <p class="ad_text ad_text1">СОБРАЛСЯ НА ГОРНОЛЫЖНЫЙ КУРОРТ?
+                    </p>
+                    <p class="ad_text">- НЕ ЗАБУДЬ КУПИТЬ СНАРЯЖЕНИЕ!</p>
+                </div>
+                <a class="ad_link" href="#">SKI-RACER.COM</a>
+            </aside>
+        </div>
+        <section class="temperature">
+            <h3 class="subheading">Температура по месяцам</h3>
+            <figure class="diagram">
+                <img src="img/wether.PNG" alt="Диаграмма">
+                <figcaption>Температура воздуха в Инсбруке днём и ночью, *C</figcaption>
+            </figure>
+        </section>
+    </article>
+    <section class="gallery container">
+        <h2 class="heading">Галерея</h2>
+        <p class="gallery__text">Впрочем, кроме спусков на лыжах, здесь хватает удивительных мест.</p>
+        <div class="gallery__card">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">ИМПЕРАТОРСКИЙ ДВОРЕЦ</p>
+            </div>
+            <img class="gallery__card_img" src="img/hofburg.jpg" alt="Дворец">
+        </div>
+        <div class="gallery__card gallery__card2">
+            <img class="gallery__card_img" src="img/hofgarten.jpg" alt="Парк">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">ПАРК ХОФГАРТЕН</p>
+            </div>
+        </div>
+        <div class="gallery__card">
+            <div class="gallery__name_wrapper">
+                <p class="gallery__card_name">ЗАМОК АБРАМ</p>
+            </div>
+            <img class="gallery__card_img" src="img/ambras.jpg" alt="Замок">
+        </div>
+    </section>
+    <section class="city_map container">
+        <h2 class="heading">Инсбрук на карте</h2>
+        <iframe src="https://www.google.ru/maps/d/embed?mid=17qmHY3dq71VnB-Uw9df6BYZr32s&hl=ru" width="100%"
+            height="480"></iframe>
+        <p>Благодаря удобному расположению, добраться до сердца Альп не составляет особого труда.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Вид транспорта</th>
+                    <th>Из Москвы</th>
+                    <th>Из Вены</th>
+                    <th>Из Мюнхена</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Самолет</td>
+                    <td><span class="td_head">Из Москвы</span>+</td>
+
+                    <td><span class="td_head">Из Вены</span>-</td>
+                    <td><span class="td_head">Из Мюнхена</span>-</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Поезд</td>
+                    <td><span class="td_head">Из Москвы</span>+</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Автомобиль</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Автобус</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>+</td>
+                    <td><span class="td_head">Из Мюнхена</span>+</td>
+                </tr>
+                <tr>
+                    <td><span class="td_head">Вид транспорта</span>Иные способы</td>
+                    <td><span class="td_head">Из Москвы</span>-</td>
+                    <td><span class="td_head">Из Вены</span>Трнасфер на заказ</td>
+                    <td><span class="td_head">Из Мюнхена</span>Трнасфер на заказ</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer class="end">
+        <div class="end_wrapper container">
+            <p class="hashtag">#VISITINNSBRUCK</p>
+            <div>
+                <img class="end_link" src="img/twitter.svg" alt="Twitter">
+                <img class="end_link" src="img/fb.svg" alt="FaceBook">
+                <img class="end_link" src="img/youtube.svg" alt="YouTube">
+            </div>
+            <p>2020 FoxArt</p>
+        </div>
+    </footer>
+</body>
+
+</html>
